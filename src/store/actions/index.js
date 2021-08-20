@@ -1,0 +1,1 @@
+export {initUserAC,userInfoAC} from './userAction'

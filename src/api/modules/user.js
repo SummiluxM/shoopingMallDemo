@@ -47,7 +47,7 @@ const user = {
 	 */
 	delAccount(id) {
 		return $axios({
-			url: "/users/delAccount?" + id,
+			url: "/users/delAccount?id=" + id,
 			method: "get",
 		})
 	},

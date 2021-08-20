@@ -25,7 +25,7 @@ const BreadCrumbNav = withRouter((props) => {
         const url = `/${pathSnippets.slice(0, index + 1).join("/")}`;
         return (
             <Breadcrumb.Item key={url}>
-                <Link to={url}>
+                <Link to={url} style={{color:'rgba(255, 255, 255)'}}>
                     {breadCrumbNameMapping[url]}
                 </Link>
             </Breadcrumb.Item>
